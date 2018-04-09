@@ -1,0 +1,39 @@
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 228rpx;
+  height: 228rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.list {
+  margin-top: 40rpx;
+}
+.contact_style{
+    margin-top: 20rpx;
+    border-top: 1rpx solid #ddd;
+    border-bottom: 1rpx solid #ddd;
+    padding: 24rpx ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.contact_text{
+    flex: 1;
+    color: #333;
+    font-size: 28rpx;
+}
+.contact_icon{
+    width: 24rpx;
+    height: 24rpx;
+    margin-right: 20rpx;
+}
